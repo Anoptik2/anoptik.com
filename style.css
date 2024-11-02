@@ -1,0 +1,129 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.ak {
+  width: 300px;
+  text-align: center;
+  border: 2px solid black;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax (250px, 1fr));
+  gap: 10px;
+  margin-top: 10px;
+  position: absolute;
+  left: 10px;
+}
+
+
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 10px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+.aknoc {
+  width: 300px;
+  text-align: center;
+  border: 2px solid black;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 10px;
+  position: absolute;
+  left: 350px;
+}
+
+
+
+.pricde {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 10px;
+}
+
+.pricde img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+.anop {
+  width: 300px;
+  text-align: center;
+  border: 2px solid black;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 10px;
+  position: absolute;
+  left: 350px;
+}
+
+
+.price {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 10px;
+}
+
+.price img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+
+  .container {
+    width: 90%;
+    padding: 20px;
+  }
+}
+
+
+@media (min-width: 1025px) {
+  body {
+    font-size: 20px;
+  }
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px;
+  }
+}
